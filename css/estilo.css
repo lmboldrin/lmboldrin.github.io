@@ -1,0 +1,304 @@
+body, html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+a:visited, :active{
+    color: blue;
+}
+
+/* Formatação Menu Superior*/
+
+ul{
+    list-style: none;
+}
+
+#topo{
+    width:100%;
+    height: 4.5em;
+    background: #bbccde;
+    min-width:980px;
+    position: fixed;
+    z-index: 2;
+}
+
+
+#area-logo{
+    height: 70px;
+    width: 107px;
+    top:5px;
+    left: 10%;
+    float: left;
+    position: absolute;
+}
+
+#area-menu{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.container{
+    width:70%;
+    margin: 0px auto;
+}
+
+ul#navegacao{
+    background: #bbccde;
+    margin:0 auto;
+    line-height: 2em;
+    display: inline-block;
+}
+
+ul#navegacao li{
+    float: left;
+    padding: 18px;
+    font-size:1em;
+}
+
+ul#navegacao li a{
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1f4e78;
+    font-weight: bold;
+}
+
+ul#navegacao li:hover{
+    background: #bcf;
+}
+
+
+
+/* Formatação de Texto*/
+
+
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 20px;
+    color: black;
+}
+
+.negrito{
+    font-weight: bold;
+}
+.sublinhado{
+    text-decoration: underline;
+}
+.azul{
+    color: blue;
+}
+
+.vermelho{
+    color: red;
+}
+
+
+/* Efeito Parallax */
+
+#caixa1, #caixa2, #caixa3, #caixa4, #caixa5{
+    position: relative;
+    height: 100%;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+#caixa1{
+    background-image: url("../imagens/caixa1.png");
+}
+
+#caixa2{
+    background-image: url("../imagens/cloud-computing.jpg");
+}
+
+#caixa3{
+    background-image: url("../imagens/caixa3.png");
+}
+
+#caixa4{
+    background-image: url("../imagens/bg-clientes.jpg");
+}
+
+#caixa5{
+    background-image: url("../imagens/logo-contato.png");
+}
+
+.conteudo{
+    color: black;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+    z-index: 2;
+    font-size: 1.6em;
+    border: 1px solid black;
+}
+
+.conteudo-contato{
+    color: black;
+    text-align: center;
+    padding: 50px 80px;
+    font-size: 1.6em;
+    border: 1px solid black;
+}
+
+.imagem-lateral{
+    width: 30%;
+    float: left;
+    margin-top:2%;
+}
+.conteudo-lateral{
+    padding: 3% 10px;
+    width: 60%;
+    float: right;
+    font-size: 0.8em;
+    
+}
+
+.conteudo-titulo{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.conteudo-titulo span.titulo{
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing:5px; 
+}
+
+.conteudo-primeiro-titulo span.titulo{
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 45px;
+    letter-spacing:5px; 
+}
+
+.conteudo-primeiro-titulo{
+    position: absolute;
+    left: 0;
+    top: 65%;
+    left: 12%;
+    text-transform: uppercase;
+    
+}
+
+
+#lista{
+    list-style:disc;
+    text-indent: 25px;
+}
+
+#lista li{
+    padding: 5px;
+}
+
+
+/* Posição Logos Clientes */
+
+#americanas{
+    position: absolute;
+    left: 0;
+    top: 6%;
+    width: 100%;
+    text-align: center;
+}
+
+#americanas img{
+    width:21%;
+}
+
+#init{
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    width: 100%;
+    text-align: right;
+}
+#init img{
+    width: 12%;
+    height: 10%;
+}
+
+#infinity{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 90%;
+    text-align: left;
+}
+
+#infinity img{
+    width:13%;
+}
+
+#fotovo{
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    width: 100%;
+    text-align: right;
+}
+
+#fotovo img{
+    width: 8%;
+}
+
+#jubilut{
+    position: absolute;
+    right: 0%;
+    top: 68%;
+    width: 100%;
+    text-align: center;
+}
+
+#jubilut img{
+    width: 20%;
+}
+
+/* Rodapé */
+
+#rodape{
+    clear: both;
+    width:100%;
+    height: 50px;
+    background: #bbccde;
+    font-size: 0.9em;
+    float: left;
+    color: #1f4e78;
+    line-height: 3.5em;
+
+}
+
+
+#conteudo-rodape{
+    font-family: sans-serif;
+    float: left;
+}
+
+#autoria{
+    float: right;   
+}
+#autoria a{
+    text-decoration: none;
+}
+
+#autoria a:hover{
+    font-weight: bold;
+}
