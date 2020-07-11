@@ -114,23 +114,23 @@ p{
 }
 
 #caixa1{
-    background-image: url("../imagens/caixa1.png");
+    background-image: url("caixa1.png");
 }
 
 #caixa2{
-    background-image: url("../imagens/cloud-computing.jpg");
+    background-image: url("cloud-computing.jpg");
 }
 
 #caixa3{
-    background-image: url("../imagens/caixa3.png");
+    background-image: url("caixa3.png");
 }
 
 #caixa4{
-    background-image: url("../imagens/bg-clientes.jpg");
+    background-image: url("bg-clientes.jpg");
 }
 
 #caixa5{
-    background-image: url("../imagens/logo-contato.png");
+    background-image: url("logo-contato.png");
 }
 
 .conteudo{
