@@ -5,7 +5,10 @@ body, html{
     height: 100%;
 }
 
-a:visited, :active{
+a:visited{
+    color: blue;
+}
+a:active{
     color: blue;
 }
 
@@ -36,6 +39,7 @@ ul{
 
 #area-menu{
     margin: 0 auto;
+    display: flex;
     justify-content: center;
 }
 
@@ -66,7 +70,11 @@ ul#navegacao li a{
 }
 
 ul#navegacao li:hover{
-    background: #bcf;
+    background: white;
+    -webkit-transition: background 2s;
+    -moz-transition: background 2s;
+    -o-transition: background 2s;
+    transition: background 2s; 
 }
 
 
@@ -114,23 +122,23 @@ p{
 }
 
 #caixa1{
-    background-image: url("caixa1.png");
+    background-image: url("../imagens/caixa1.png");
 }
 
 #caixa2{
-    background-image: url("cloud-computing.jpg");
+    background-image: url("../imagens/cloud-computing.jpg");
 }
 
 #caixa3{
-    background-image: url("caixa3.png");
+    background-image: url("../imagens/caixa3.png");
 }
 
 #caixa4{
-    background-image: url("bg-clientes.jpg");
+    background-image: url("../imagens/bg-clientes.jpg");
 }
 
 #caixa5{
-    background-image: url("logo-contato.png");
+    background-image: url("../imagens/logo-contato.png");
 }
 
 .conteudo{
@@ -141,6 +149,8 @@ p{
     z-index: 2;
     font-size: 1.6em;
     border: 1px solid black;
+    border-radius: 2em;
+    margin: 5px 0;
 }
 
 .conteudo-contato{
