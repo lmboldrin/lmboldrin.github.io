@@ -5,6 +5,7 @@ body, html{
     height: 100%;
 }
 
+
 a:visited{
     color: blue;
 }
@@ -113,7 +114,6 @@ p{
 #caixa1, #caixa2, #caixa3, #caixa4, #caixa5{
     position: relative;
     height: 100%;
-    opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -134,23 +134,31 @@ p{
 }
 
 #caixa4{
-    background-image: url("bg-clientes.jpg");
+    background-image: url("fundo.png");
 }
 
 #caixa5{
     background-image: url("logo-contato.png");
 }
 
-.conteudo{
-    color: black;
-    background-color: white;
+.conteudo, .conteudo-tecnologias{
     text-align: justify;
     padding: 50px 80px;
     z-index: 2;
     font-size: 1.6em;
     border: 1px solid black;
     border-radius: 2em;
-    margin: 5px 0;
+    margin: 0px 0px;;
+    color: black;
+
+}
+
+.conteudo{
+    background-color: white;   
+}
+
+.conteudo-tecnologias{
+    background: url("bg-tecnologias1.png");
 }
 
 .conteudo-contato{
@@ -159,6 +167,20 @@ p{
     padding: 50px 80px;
     font-size: 1.6em;
     border: 1px solid black;
+}
+
+
+.bg-quemsomos{
+    background: url("bg-quemsomos.png") no-repeat;
+    background-position: top;
+}
+
+#bg-comofaremos{
+    background: url("bg-comofaremos.png") no-repeat;
+}
+
+.bg-tech{
+    background-image:url("bg-tech.png");
 }
 
 .imagem-lateral{
@@ -267,7 +289,7 @@ p{
 }
 
 #fotovo img{
-    width: 8%;
+    width: 12%;
 }
 
 #jubilut{
