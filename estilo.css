@@ -159,6 +159,8 @@ p{
 
 .conteudo-tecnologias{
     background: url("bg-tecnologias1.png");
+    display: flex;
+    align-items: center;
 }
 
 .conteudo-contato{
