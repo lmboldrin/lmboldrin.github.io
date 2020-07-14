@@ -44,6 +44,27 @@ ul{
     justify-content: center;
 }
 
+#area-icones{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    float: right;
+    position: absolute;
+    top: 3px;
+    right: 6%
+}
+
+#area-icones img{
+    width: 70%;
+}
+
+#area-icones img:hover{
+    width: 75%;
+    transition: all 0.7s;
+}
+
 .container{
     width:70%;
     margin: 0px auto;
@@ -145,7 +166,7 @@ p{
     text-align: justify;
     padding: 50px 80px;
     z-index: 2;
-    font-size: 1.6em;
+    font-size: 1.4em;
     border: 1px solid black;
     border-radius: 2em;
     margin: 0px 0px;;
@@ -167,15 +188,14 @@ p{
     color: black;
     text-align: center;
     padding: 50px 80px;
-    font-size: 1.6em;
+    font-size: 1.4em;
     border: 1px solid black;
 }
 
 
 .bg-quemsomos{
     background: url("bg-quemsomos.png") no-repeat;
-    background-position: top;
-}
+    background-position: top;}
 
 #bg-comofaremos{
     background: url("bg-comofaremos.png") no-repeat;
@@ -183,16 +203,17 @@ p{
 
 .bg-tech{
     background-image:url("bg-tech.png");
+    padding-top: 8px;
 }
 
 .imagem-lateral{
-    width: 30%;
+    width: 40%;
     float: left;
     margin-top:2%;
 }
 .conteudo-lateral{
     padding: 3% 10px;
-    width: 60%;
+    width: 50%;
     float: right;
     font-size: 0.8em;
     
@@ -248,15 +269,16 @@ p{
 
 #americanas{
     position: absolute;
-    left: 0;
+    left: 20%;
     top: 6%;
-    width: 100%;
+    width: 60%;
     text-align: center;
 }
 
 #americanas img{
     width:21%;
 }
+
 
 #init{
     position: absolute;
@@ -274,12 +296,12 @@ p{
     position: absolute;
     left: 10%;
     top: 40%;
-    width: 90%;
+    width: 85%;
     text-align: left;
 }
 
 #infinity img{
-    width:13%;
+    width:18%;
 }
 
 #fotovo{
