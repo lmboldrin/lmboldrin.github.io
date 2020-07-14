@@ -53,15 +53,15 @@ ul{
     float: right;
     position: absolute;
     top: 3px;
-    right: 6%
+    right: 6%;
 }
 
 #area-icones img{
-    width: 70%;
+    width: 45%;
 }
 
 #area-icones img:hover{
-    width: 75%;
+    width: 65%;
     transition: all 0.7s;
 }
 
